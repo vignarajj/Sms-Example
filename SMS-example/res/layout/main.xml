@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView 
+    android:id="@+id/ftxt1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ENTER THE PHONE NUMBER"
+    android:textColor="#FAFAFA"
+    android:padding="3dip"
+    android:textStyle="bold"
+    />
+<EditText 
+        android:id="@+id/fnumtxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number|phone"
+        android:singleLine="true"
+        android:padding="3dip"
+        />
+<TextView 
+    android:id="@+id/fmsglbl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FAFAFA"
+    android:padding="3dip"
+    android:textStyle="bold"
+    android:text="ENTER THE MESSAGE"
+    />
+<EditText
+    android:id="@+id/fmsgtxt"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:inputType="textLongMessage|textAutoCorrect|textMultiLine"
+        android:padding="3dip"
+     />
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button 
+        android:layout_width="155dip"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:id="@+id/fsendbtn"
+        android:textColor="#412D42"
+        android:padding="3dip" 
+        />
+    <Button 
+        android:layout_width="155dip"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:id="@+id/fcancelbtn"
+        android:textColor="#412D42"
+        android:padding="3dip" 
+        /> 
+</LinearLayout>
+</LinearLayout>
